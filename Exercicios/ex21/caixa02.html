@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg, rgb(146, 140, 140), rgb(123, 201, 231) );
+            margin: 0px;
+
+        }
+        header {
+            text-align: center;
+            text-shadow: 3px;
+        }
+
+        nav {
+            background-color: rgba(0, 191, 255, 0.253);
+            box-shadow: 1px 3px 5px rgb(0 0 0 / 47%);
+        }
+        nav > a {
+            margin-left: 10px;
+            text-decoration: none;
+            box-shadow: 1px 1px 8px rgb(0 0 0 / 39%);
+        }
+        nav > p {
+            display: none;
+        }
+        nav >a:hover {
+            text-decoration: underline;
+            text-decoration-color: crimson;
+            color: cyan;
+        }
+        aside {
+            background-color: cornflowerblue;
+            text-align: right;
+            margin-left: auto;
+        }
+
+        footer {
+            padding: 1px;
+            text-align: left;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+        h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #art1 {
+            padding: 5px 5px 0px 5px;
+            
+        }
+        article > p {
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.274);
+            border-radius: 5px;
+        }
+        article > h2{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        }
+        #referencia:hover {
+            text-decoration:underline  red;
+            color: black;
+        }
+        #referencia {
+            text-decoration: none;
+            margin:none;
+            color: rgba(233, 234, 241, 0.849);
+
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Olá,Mundo!
+        </h1>
+        <nav>
+
+            <a href=""> Pagina principal</a>
+            <p>Teste</p>
+            <a href=""> Segunda Pagina</a>
+            <a href=""> Terceira pagina</a>
+            <a href=""> Quarta pagina</a>
+
+        </nav>
+    </header>
+    <main>
+        <article id="art1">
+            <h2>Tipos de cabeçalho</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil magnam, eius excepturi id soluta ea iure laborum, temporibus libero officiis nemo, sed rerum similique laudantium et ullam! Et, maxime placeat.
+            </p>
+            <aside>
+                Fora isso temos mais coisas disponiveis para esse lorem
+            </aside>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam, ut velit numquam minus corrupti officia mollitia, nisi enim officiis quas suscipit facilis similique laborum deserunt magni quam ratione? Ipsum.
+            </p>
+            <article>
+                <h2>Tipos de cabeçalho 2.0</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magnam voluptatum laudantium blanditiis tenetur dignissimos, est ea perferendis reiciendis maiores dolor obcaecati iste aspernatur repellat ratione. Rem natus distinctio est!
+                </p>
+            </article>
+        </article>
+    </main>
+    <footer>
+        Escrito por blablablablabla
+        <a href="" id="referencia">Link de referencia </a>
+    </footer>
+
+</body>
+</html>

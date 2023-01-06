@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            font-weight: bolder;
+            text-decoration: none;
+            color:cadetblue
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: rgb(230, 136, 136);
+        }
+        .especial:hover {
+            text-decoration:underline;
+            color: burlywood;
+            text-decoration-color: rgb(255, 68, 0);    
+        }
+        .especial::before {
+            content:'==>' ;
+            font-weight: bolder;
+            color: brown;
+        }
+        .especial::after {
+            content: '<==';
+            font-weight: bolder;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Customização de links</h1>
+    <ul>
+        <li>
+           <a href="https://www.youtube.com" target="_blank">
+            <p>Link do youtube</p>
+
+            </a>
+        </li>
+        <li>
+            <a href="https://twitch.tv" target="_blank" class=""> link para twitch           </a>
+        </li>
+        <li>
+            <a href="https://g1.globo.com" target="_blank" class="especial">Link para o Globo noticias          </a>
+        </li>
+    </ul>
+    
+</body>
+</html>

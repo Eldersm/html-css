@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+body {
+    font:normal 1.2em arial , sans-serif;
+    background-image: linear-gradient(90deg, #A8A3A0 , #E8FFFD);
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    width: 600px;
+    box-shadow: 3px 3px 5px #1d1c1b ;
+}
+h1,h2 {
+    font-family: 'Rye', cursive;
+    text-shadow: 2px 2px 3px #26615baf;
+    color:#43A89E;
+    
+}
+p {
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+}

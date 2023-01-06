@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+@font-face {
+    font-family:'Diplomata' ;
+    src: url('../fonte/DiplomataSC.ttf') format('truetype');
+}
+
+
+*  {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --corgt:#D1DCEB;
+    --corg0:#54DCEB;
+    --corg1:#2AC0D1;
+    --corg2:#2196A3;
+    --corg3:#4D5F61;
+    --corg4:#104B52;
+
+    --fonte-principal:Arial , Verdana , Helvetica , sans-serif;
+    --fonte-titulos:'Diplomata' , sans-serif;
+    --fonte-destaque:'Sevillana', cursive;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--corgt);
+}
+header {
+    background-image:linear-gradient(180deg,transparent, var(--corg0), var(--corg2));
+    padding-top: 20px;
+    text-align: center;
+}
+header > h1 {
+    font-family: var(--fonte-titulos);
+    font-size: 2.5em;
+    color: whitesmoke;
+    text-shadow: 1px 0px 1px black;
+}
+header >p{
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 0px 1px black;
+    padding: 15px;
+}
+nav {
+    background-color: var(--corg2);
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--corg0);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+nav a:hover {
+    background-color: var(--corg0);
+    color: var(--corg4);
+}
+
+main {
+    max-width: 1000px;
+    min-width: 340px;
+    margin: auto;
+    background-color: whitesmoke;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+main h1 {
+    font-family: var(--fonte-destaque);
+    background-color: var(--corg2);
+    padding-bottom:10px;
+    text-indent: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-top-left-radius: 5px;
+    
+}
+main h2 {
+    font-family: var(--fonte-titulos);
+    background-image: linear-gradient(45deg , var(--corg2), transparent);
+    color:whitesmoke;
+    text-indent: 10px ;
+}
+main p {
+    padding-left:15px;
+    padding-right:15px;
+
+}
+main img {
+   width: 100%;
+}
+
+div.teste {
+    background-color: var(--corg3);
+    position: relative;
+    padding-bottom: 57.5%;
+    margin: 10px 0px 10px 0px;
+}
+div.teste > iframe {
+    position: absolute;
+    top: 5%;
+    left:5%;
+    width: 90%;
+    height:auto;
+}
+
+main h3 {
+    background-color: var(--corg4);
+    color: whitesmoke;
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    text-align: justify;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main aside{
+    background-color: var(--corg0);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+    
+}
+main ul {
+    columns: 2;
+    list-style-position: inside;
+
+}

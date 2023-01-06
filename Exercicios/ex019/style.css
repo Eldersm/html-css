@@ -1,0 +1,30 @@
+@charset "UTF8--8";
+
+body {
+    background-image:linear-gradient(90deg, rgba(54, 150, 118, 0.678), rgba(112, 57, 57, 0.616)  );
+}
+h1 {
+    color: rgba(80, 145, 16, 0.753);
+}
+h1#principal {
+    text-align: center;
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
+
+h2 {
+    color: rgba(54, 150, 118, 0.678);
+}
+
+.subt1 {
+    color: rgba(112, 57, 57, 0.616);
+}
+
+.subt2 {
+    color: rgba(72, 175, 175, 0.795);
+    background-color: aliceblue;
+}
+
+.subt3 {
+    color: rgb(41, 241, 41);
+}
