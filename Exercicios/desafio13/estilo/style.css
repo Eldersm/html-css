@@ -52,8 +52,7 @@ section {
 }
  section p {
     width:50%;
-    
-    font-size:4vmax ;
+    font-size:4.5vmax ;
     font-family: var(--texto-paragrafos);
     line-height: 2em;
     margin: 10px;
@@ -63,9 +62,11 @@ section {
 div#joaninha {
     background:white url('../imagens/background001.jpg') no-repeat fixed;
     background-size:cover;
+    background-position: right bottom;
     margin: 0px 0px 0px 0px;
     width: 100%;
     padding-bottom: 15%;
+    color: white;
 }
 
 div#livro {
@@ -74,13 +75,15 @@ div#livro {
     margin: 0px 0px 0px 0px;
     width: 100%;
     padding-bottom:15%;
+    
 }
 
 p.especial {
     width: 40%;
-    background-color: rgba(169, 169, 169, 0.445);
+    background-color:rgba(128, 128, 128, 0.322);
     font-size: 2.8vmax;
     transform: translate(10%, 10%);
+    color: white;
 }
 
 footer {
