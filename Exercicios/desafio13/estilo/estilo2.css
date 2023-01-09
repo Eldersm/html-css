@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px ;
+    font-size: 1em;
+}
+:root {
+
+    --cor01:#87A18A;
+    --cor02:#6EEB7E;
+    --cor03:#EBE696;
+    --cor04:#9E876A;
+    --cor05:#EBAC5E;
+}
+
+header {
+    padding-top:20px;
+    background-image: linear-gradient(90deg , var(--cor01), var(cor02),transparent);
+
+}
