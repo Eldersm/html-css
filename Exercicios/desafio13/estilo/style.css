@@ -26,7 +26,7 @@ header {
     text-align: center;
 }
 header h1 {
-    font-size: 5.9vw;
+    font-size: 5.9vw /*view width ou largura horizontal da letra */;
     font-family: var(--texto-titulo);
 }
 
@@ -47,7 +47,7 @@ main {
 
 section {
 
-     position: relative;
+     position: relative /*não precisa colocar posição como absolute pois se não "quebra" a sequencia abaixo dela */;
      width: 100%;
 }
  section p {
@@ -81,7 +81,7 @@ div#livro {
 p.especial {
     width: 40%;
     background-color:rgba(128, 128, 128, 0.322);
-    font-size: 2.8vmax;
+    font-size: 2.8vmax /*2.8 da view maxima da tela ou do cliente */;
     transform: translate(10%, 10%);
     color: white;
 }
@@ -100,5 +100,5 @@ footer a:hover {
     text-decoration: underline darksalmon;
 }
 footer a::after{ 
-    content: "\1F517";
+    content: "\1F517" /*comando para adicionar conteudo emojis entre outros a um link ou letra no CSS */;
 }
