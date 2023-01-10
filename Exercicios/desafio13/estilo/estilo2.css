@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 *{
     margin:0px;
@@ -13,9 +14,44 @@
     --cor04:#9E876A;
     --cor05:#EBAC5E;
 }
-
+body {
+        background-color: beige;
+}
 header {
-    padding-top:20px;
-    background-image: linear-gradient(90deg , var(--cor01), var(cor02),transparent);
+    padding: 30px 15px;
+    background-image: linear-gradient(180deg , var(--cor01), var(--cor02),transparent);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 6vmax;
+    color: var(--cor03);
+}
+header p {
+    color: var(--cor05);
+    font-size: 1.5vmax;
+}
+main {
+    position: relative;
+}
+
+main section {
+    position: relative;
 
 }
+div.imagens {
+    width: 100%;
+    position: absolute;
+    background: whitesmoke url('../imagens/Aves1.jpg') no-repeat fixed;
+    background-size: cover;
+
+}
+
+p#especial {
+    width: 40%;
+    color:white;
+    transform: translate(50%, 90%);
+
+}
+
+
