@@ -36,6 +36,7 @@ main {
     margin:auto;
     max-width: 1000px;
     position: relative;
+    background-color: white;
 }
 
 main section {
