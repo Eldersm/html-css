@@ -51,7 +51,7 @@ div.imagens {
     position: relative;
     background: whitesmoke url('../imagens/Aves1.jpg') no-repeat fixed;
     background-size: cover;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
 
 }
 
@@ -61,7 +61,7 @@ p#especial {
     color:white;
     font-size: 3vh;
     background-color: rgba(128, 128, 128, 0.253);
-    transform: translate(10%, 70%);
+    transform: translate(5%, 50%);
 
 }
 div#img2 {
@@ -75,13 +75,13 @@ div#img2 {
 
 p#especial2 {
     position: relative;
-    width: 35%;
+    width: 45%;
     top: 10%;
-    left: 5%;
+    left: 3%;
     color: black;
     font-size:2.5vh;
     background-color:rgba(128, 128, 128, 0.24);
-    transform: translate(10%, 50%);
+    transform: translate(7%, 40%);
 }
 
 footer {
