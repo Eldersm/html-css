@@ -13,6 +13,7 @@
     --cor03:#EBE696;
     --cor04:#9E876A;
     --cor05:#EBAC5E;
+    --texto-site:'Raleway', sans-serif;
 }
 body {
         background-color: beige;
@@ -32,25 +33,61 @@ header p {
     font-size: 1.5vmax;
 }
 main {
+    margin:auto;
+    max-width: 1000px;
     position: relative;
 }
 
 main section {
     position: relative;
-
+    width: 100%;
+    line-height: 1.5em;
+    font-family: var(--texto-site);
+    text-indent: 30px;
 }
 div.imagens {
     width: 100%;
-    position: absolute;
+    position: relative;
     background: whitesmoke url('../imagens/Aves1.jpg') no-repeat fixed;
     background-size: cover;
+    padding-bottom: 20%;
 
 }
 
 p#especial {
+    position: relative;
     width: 40%;
     color:white;
-    transform: translate(50%, 90%);
+    font-size: 3vh;
+    background-color: rgba(128, 128, 128, 0.253);
+    transform: translate(10%, 70%);
+
+}
+div#img2 {
+    width: 100%;
+    background:white url('../imagens/aves2.jpg') no-repeat fixed;
+    background-size:cover;
+    padding-bottom:20%;
+    
+}
+    
+
+p#especial2 {
+    position: relative;
+    width: 35%;
+    top: 10%;
+    left: 5%;
+    color: black;
+    font-size:2.5vh;
+    background-color:rgba(128, 128, 128, 0.24);
+    transform: translate(10%, 50%);
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
 
 }
 
