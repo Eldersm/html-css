@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Col group</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid black;
+        }
+        td {
+            border: 1px solid black;
+        }
+        col.col1 {
+            background-color: gray;
+        }
+        col.col4 {
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="col1" span="2">
+            
+            <col class="col3">
+            <col class="col4">
+        </colgroup>
+        <thead>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alisson</td>
+                <td>23</td>
+                <td>M</td>
+                <td>Analista de sistemas</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>24</td>
+                <td>F</td>
+                <td>Gerente de loja</td>
+            </tr>
+            <tr>
+                <td>Carol</td>
+                <td>26</td>
+                <td>F</td>
+                <td>Desenvolvedora</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
