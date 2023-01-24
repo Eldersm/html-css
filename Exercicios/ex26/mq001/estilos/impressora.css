@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* estilo para impressora */
+
+ * {
+    padding: 10px;
+    margin: 10px;
+ }
+
+ body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.2em;
+
+ }
+ menu {
+    display: none;
+ }
+ main {
+    width: 100%;
+ }
+
+ article::after {
+    content: 'Esse Site foi feito no dia xx para mais acesse www.xxxx.com/xxxx';
+ }
+
+
+
+
+
