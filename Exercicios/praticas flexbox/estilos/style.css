@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* { padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+body {
+    background-color: cornflowerblue;
+    height: 100vh;
+}
+
+main.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 500px;
+    align-items: center; /*alinha elementos no eixo perpendicular ou seja horizontal */
+    
+}
+
+div#img1{
+    display: block;
+    background-image: url(../imagens/landscap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+div#img2 {
+    display: block;
+    padding: 3px;
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(156, 156, 156);
+}
+
+
+div.formul {
+    display: block;
+}
+
+div.formul > input {
+    display: block;
+    width: 80%;
+}
+
+input [type=submit] {
+    display: block;
+}
+
