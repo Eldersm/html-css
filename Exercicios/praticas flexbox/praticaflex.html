@@ -31,16 +31,18 @@
              <form action="cadastro.php" method="post">
                 <div class="formul">
                     <label for="iemail">Login</label>
-                    <input type="email" name="email" id="iemail" placeholder="Digite seu E-mail">
+                    <input type="email" name="email" id="iemail" placeholder="Digite seu E-mail" required autocomplete="email">
                 </div>
 
                 <div class="formul">
                     <label for="isenha">Senha</label>
-                    <input type="password" name="senha" id="isenha" placeholder="Minimo 8 digitos">
+                    <input type="password" name="senha" id="isenha" placeholder="Minimo 8 digitos" minlength="8" required >
                 </div>
-
-                <input type="submit" value="Entrar">
-                <button> Reset</button>
+                <div id="entrar">
+                    
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
 
                 
              </form>

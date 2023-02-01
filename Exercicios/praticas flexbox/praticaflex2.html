@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-image: linear-gradient(45deg , #6B3A32 40% ,#6B5652 , #EBBCB5);
+        }
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: whitesmoke;
+            border-bottom: 0.5px solid white;
+            padding: 10px;
+        }
+        header > h1 {
+            font-family: 'Lobster', cursive;
+        }
+        header > nav > a {
+
+            text-decoration: none;
+            color: whitesmoke;
+            margin: 8px;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column-reverse;
+            padding: 80px;
+            height: 100vh;
+            border-bottom:1px solid whitesmoke ;
+        }
+         main > div#letras{
+            color: white;
+            width: 150px;
+            line-height: 1.5em;
+
+         }
+         main >div#letras > h2 {
+            font-family: 'Lobster', cursive;
+            margin-bottom: 10px;
+         }
+         main > img {
+            order: 1;
+            height: 300px;
+            border-radius: 3px;
+         }
+         footer {
+            width: 100vw;
+            background-color:#6B5652;
+            text-align: center;
+            padding-bottom:32px;
+            color: whitesmoke;
+         }
+         footer > p > a {
+            text-decoration: none;
+            color: black;
+         }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web galleria</h1>
+        <nav>
+            <a href="#" target="_blank">Autor</a>
+            <a href="#" target="_self">Sobre a divulgação no site</a>
+            <a href="#" target="_self">Licensas de uso</a>
+        </nav>
+        
+
+    </header>
+    <main>
+        <div id="letras">
+            <h2>Paisagem</h2>
+            <p>Essa é apenas uma ilustração de desenho em pixel</p>
+            <p>Entre em contato caso queira uma divulgação</p>
+        </div>
+        <img src="imagens/animated water-Recovered.gif" alt="Imagem da demonstração">
+
+    </main>
+    <footer>
+        <p>Feito por <a href="#" target="_blank">Pessoa</a> para Estudo de flexbox</p>
+    </footer>    
+</body>
+</html>
