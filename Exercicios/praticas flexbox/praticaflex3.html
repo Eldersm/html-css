@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+         button {
+            width: 32px;
+            height: 32px;
+    
+            background-color: white;
+        }
+        img#botao2{
+            transform: scaleX(-1);
+        }
+        div#carregar {
+            width: 300px;
+            height: 300px;
+    
+        }
+        img#img1 , img#img2 , img#img3{
+            display: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <div id="carregar">
+            <img id="img1" src="imagens/Lightdom2.png" alt="" >
+            <img id="img2" src="imagens/animated water-Recovered.gif" alt="">
+            <img id="img3" src="imagens/waiting.gif" alt="">
+        </div>
+            <button id="botao" ><img src="imagens/voltar.png" alt="" onclick="voltar()" ></button>
+
+            <button><img id="botao2" src="imagens/voltar.png" alt="" onclick="clicou()" ></button>
+
+    </main>
+    <script>
+        let notas = document.querySelector('div#carregar')
+        function clicou(){
+            var direita = document.querySelector('img#botao2')
+            document.querySelector('img#img1').style.display = 'block'
+            
+
+
+        }
+        function voltar(){
+            var esquerda =document.querySelector('img#botao')
+            document.querySelector('img#img2').style.display ='block'
+            document.querySelectorAll('img')[2].style.display ='block'
+
+        }
+
+    </script>
+    
+</body>
+</html>
