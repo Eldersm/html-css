@@ -1,10 +1,10 @@
-/*function sum(number1 , number2){
-    const soma = number1 + number2
-    return soma
+let res =document.querySelector('input#inumero')
 
-}*/
-
- const person = {
-    name:'Elder',
-    
- }
+function calculo(){
+    const num1 = 5
+    const num2 = 8
+    return num1 + num2
+}
+res.textContent =`${calculo()}`
+console.log(calculo())
+res.value = 'olá mundo!'

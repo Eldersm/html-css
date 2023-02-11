@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: rgba(31, 31, 31, 0.397);
+    height: 500px;
+}
+div#func{
+    display: flex;
+    flex-direction: column;
+    
+}
+main > input#inumero{
+    align-self:flex-end ;
+}
+.numeros{
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+
+}

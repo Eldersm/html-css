@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arrow function</title>
+    <title>Calculadora Funcional Simples</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <h1>Testando arrow function</h1>
+    <header id="cabe">
+        <h1 id="titulo">Calculando números</h1>
+    </header>
+    <main>
+        <input type="number" name="inumb" id="inumero">
+        <div id="numeros_finais" class="numeros">
+            <div onclick="" >7</div>
+             <div onclick="" >8</div>
+             <div onclick="" >9</div>
+        </div>
+        <div class="numeros">
+            <div onclick="" >4</div>
+             <div onclick="" >5 </div>
+             <div onclick="" >6</div>
+        </div>
+        <div class="numeros">
+            <div onclick="" >1</div> 
+            <div onclick="" >2 </div>
+            <div onclick="" >3</div>
+        </div>
+        <div id="func" class="numeros">
+            <div>+</div> 
+            <div>-</div> 
+            <div>/</div> 
+            <div>*</div>
+        </div>
+        <button onclick="calculo()" >Calcular</button>
+    </main>
     <script src="scripts/teste1.js"></script>
 </body>
 </html>
