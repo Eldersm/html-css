@@ -74,7 +74,6 @@ function multiplicar(){
 function limpa(){
     let limpa = res.value
     res.value = limpa.substr(0,limpa.length -1)
-    res.focus()
 
 }
 
@@ -87,7 +86,6 @@ function calculo(){
         res.value = limpa.substr(1)
         total = numeros[0] + numeros[1]
         res.value = total
-        res.focus()
         return res.value
     }
     else if (res.value.includes('/')){
@@ -95,21 +93,18 @@ function calculo(){
         numeros[1]= Number(res.value)
         total = numeros[0] / numeros[1]
         res.value = total
-        res.focus()
         return res.value
     }else if(res.value.includes('-')){
         res.value = limpa.substr(1)
         numeros[1]=Number(res.value)
         total=numeros[0] - numeros[1]
         res.value = total
-        res.focus()
         return res.value
     }else if (res.value.includes('*')){
         res.value = limpa.substr(1)
         numeros[1]=Number(res.value)
         total = numeros[0] * numeros[1]
         res.value = total
-        res.focus()
         return res.value
 
 
