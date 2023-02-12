@@ -1,7 +1,6 @@
 let res =document.querySelector('input#inumero')
 let numeros = []
-let header =document.querySelector('header#cabe')
-header.createElement('img')
+
 
 
 function somar(){
