@@ -29,7 +29,7 @@ main {
     justify-content: center;
     align-items: center;  
     flex-direction: column;
-    height: 500px;
+    height: 450px;
 }
 div#func{
     display: flex;
@@ -72,7 +72,7 @@ button#calculo{
     border: 0px;
     margin: 10px;
     padding:15px;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 button:hover{
     cursor: pointer;
@@ -82,6 +82,7 @@ button:hover{
 }
 footer {
     text-align: center;
+    font-size: 1.5em;
     
 }
 footer > p > a {
