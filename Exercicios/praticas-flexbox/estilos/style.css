@@ -28,7 +28,7 @@ ul {
     list-style: none;
 }
 header > img#logo{
-    height: 50px;
+    height: 40px;
 }
 header > h1 {
     color: white;
@@ -37,14 +37,14 @@ header > h1 {
 header > nav > ul > li a {
     text-decoration: none;
     color: whitesmoke;
-    margin: 10px;
+    margin: 5px;
 }
 
 main.conteiner {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    height: 428px;
+    height: 350px;
     align-items: center; /*alinha elementos no eixo perpendicular ou seja horizontal */
 }
 

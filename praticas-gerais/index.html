@@ -49,24 +49,41 @@
         let res =document.querySelector('input#inumero')
         let numeros = []
         function somar(){
-            numeros[0]=parseFloat(res.value)
-            res.value =' '
-            res.value = ' +'
+            if (res.value.length == 0){
+                window.alert ('Por favor digite um numero')
+            }else{
+                numeros[0]=parseFloat(res.value)
+                res.value =' '
+                res.value = ' +'
+            }
+           
         }
         function dividir(){
-            numeros[0]=parseFloat(res.value)
-            res.value = ' '
-            res.value = '/'
+            if(res.value.length == 0){
+                window.alert('Por favor digite um numero!')
+            }else{
+                numeros[0]=parseFloat(res.value)
+                res.value = ''
+                res.value = '/'
+            }
         }
         function subtrair(){
-            numeros[0]=parseFloat(res.value)
-            res.value = ' '
-            res.value = '-'
+            if(res.value.length ==0){
+                window.alert('Por favor digite um numero!')
+            }else{
+                numero[0]=parseFloat(res.value)
+                res.value = ''
+                res.value ='-'
+            }
         }
         function multiplicar(){
-            numeros[0]= parseFloat(res.value)
-            res.value = ' '
-            res.value = '*'
+            if (res.value.length == 0){
+                window.alert('Por favor digite o numero!')
+            }else{
+                numeros[0]= parseFloat(res.value)
+                res.value = ' '
+                res.value = '*'
+            }
         }
         function limpa(){
             let limpa = res.value
