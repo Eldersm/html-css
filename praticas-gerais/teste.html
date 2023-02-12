@@ -12,34 +12,39 @@
         <h1 id="titulo">Calculando números</h1>
     </header>
     <main>
-        <input type="text" name="inumb" id="inumero">
-        <div id="numeros_finais" class="numeros">
-           <button onclick="document.querySelector('input#inumero').value += 1"  >1</button>
-           <button onclick="document.querySelector('input#inumero').value += 2"  >2</button>
-           <button onclick="document.querySelector('input#inumero').value += 3"  >3</button>
-        </div>
-        <div class="numeros">
-           <button onclick="document.querySelector('input#inumero').value +=4"  >4</button>
-           <button onclick="document.querySelector('input#inumero').value +=5"  >5</button>
-           <button onclick="document.querySelector('input#inumero').value +=6"  >6</button>
+     
+        <div id="calculadora">
+            <input type="text" name="inumb" id="inumero">
+            <div id="numeros_finais" class="numeros">
+               <button onclick="document.querySelector('input#inumero').value += 1"  >1</button>
+               <button onclick="document.querySelector('input#inumero').value += 2"  >2</button>
+               <button onclick="document.querySelector('input#inumero').value += 3"  >3</button>
+            </div>
+            <div class="numeros">
+               <button onclick="document.querySelector('input#inumero').value +=4"  >4</button>
+               <button onclick="document.querySelector('input#inumero').value +=5"  >5</button>
+               <button onclick="document.querySelector('input#inumero').value +=6"  >6</button>
             
+            </div>
+            <div class="numeros">
+             <button onclick="document.querySelector('input#inumero').value +=7" >7</button>
+             <button onclick="document.querySelector('input#inumero').value +=8" >8</button>
+             <button onclick="document.querySelector('input#inumero').value +=9"  >9</button>  <br>
+             <button onclick="document.querySelector('input#inumero').value +=0"  id="num_zero">0</button>
+            </div>
+            <div id="func" class="numeros">
+                <button  class="algoritmo" onclick="somar()" value="+"  >+</button>
+                <button class="algoritmo"  onclick="subtrair()" value="-" >-</button>
+                <button  class="algoritmo" onclick="dividir()" value="/" >/</button>
+                <button  class="algoritmo" onclick="multiplicar()" value="*" >*</button>
+                <button  class="algoritmo" onclick="limpa()">B</button>
+            </div>
         </div>
-        <div class="numeros">
-         <button onclick="document.querySelector('input#inumero').value +=7" >7</button>
-         <button onclick="document.querySelector('input#inumero').value +=8" >8</button>
-         <button onclick="document.querySelector('input#inumero').value +=9"  >9</button>
-         <button onclick="document.querySelector('input#inumero').value +=0"  id="num_zero">0</button>
-        </div>
-        <div id="func" class="numeros">
-            <button  class="algoritmo" onclick="somar()" value="+"  >+</button>
-            <button class="algoritmo"  onclick="subtrair()" value="-" >-</button>
-            <button  class="algoritmo" onclick="dividir()" value="/" >/</button>
-            <button  class="algoritmo" onclick="multiplicar()" value="*" >*</button>
-            <button  class="algoritmo" onclick="clear()">B</button>
-
-        </div>
-        <button onclick="calculo()" >Calcular</button>
+        <button id="calculo" onclick="calculo()" >Calcular</button>
     </main>
+    <footer>
+        <p>Feito por <a href="#">Link aqui</a></p>
+    </footer>
     <script src="/praticas-gerais/scripts/teste1.js"></script>
 </body>
 </html>
