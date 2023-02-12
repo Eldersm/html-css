@@ -1,24 +1,32 @@
 let res =document.querySelector('input#inumero')
+let numeros = []
 
-function num1(){
-    return 1 
-
-}
-const num2 =() =>{
-    return 2
-}
 
 function somar(){
+    numeros[0]=parseFloat(res.value)
+    res.value =' '
+    res.value = ' +'
+}
+function dividir(){
+    numeros[0]=parseFloat(res.value)
     res.value = ' '
-    res.value += `${num1()} + `
-
+    res.value = ' /'
 }
 
-
 function calculo(){
+   let total = 0
+   numeros[1]= Number(res.value)
 
-     if(res.value = "+"){
-        res.value = ' '
-        res.value += `${num1()} + ${num2()} = ${num1() + num2()}`
-   }
+    if(res.value.includes('+')){
+        total = numeros[0] / numeros[1]
+        res.value = total
+        return res.value
+    }
+    else if (res.value.includes('/')){
+        
+        numeros[1]= Number(res.value)
+        total = numeros[0] + numeros[1]
+        res.value = total
+        return res.value
+    }
 }

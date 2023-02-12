@@ -9,20 +9,29 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;  
+    flex-direction: column;
     background-color: rgba(31, 31, 31, 0.397);
     height: 500px;
 }
 div#func{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
 }
 main > input#inumero{
-    align-self:flex-end ;
+    align-self:center ;
+    margin-bottom: 5px;
 }
-.numeros{
-    background-color: whitesmoke;
-    margin: 5px;
-    padding: 10px;
 
+
+
+.numeros > button{
+    padding:8px;
+    margin: 8px;
+    background-color: whitesmoke;
 }
+
+div.numeros{
+    background-color: whitesmoke;
+}
+

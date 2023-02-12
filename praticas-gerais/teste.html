@@ -14,25 +14,29 @@
     <main>
         <input type="text" name="inumb" id="inumero">
         <div id="numeros_finais" class="numeros">
-            <div onclick="" >7</div>
-             <div onclick="" >8</div>
-             <div onclick="" >9</div>
+           <button onclick="document.querySelector('input#inumero').value += 1"  >1</button>
+           <button onclick="document.querySelector('input#inumero').value += 2"  >2</button>
+           <button onclick="document.querySelector('input#inumero').value += 3"  >3</button>
         </div>
         <div class="numeros">
-            <div onclick="" >4</div>
-             <div onclick="" >5 </div>
-             <div onclick="" >6</div>
+           <button onclick="document.querySelector('input#inumero').value +=4"  >4</button>
+           <button onclick="document.querySelector('input#inumero').value +=5"  >5</button>
+           <button onclick="document.querySelector('input#inumero').value +=6"  >6</button>
+            
         </div>
         <div class="numeros">
-            <div onclick="num1()" >1</div> 
-            <div onclick="num2()" >2 </div>
-            <div onclick="" >3</div>
+         <button onclick="document.querySelector('input#inumero').value +=7" >7</button>
+         <button onclick="document.querySelector('input#inumero').value +=8" >8</button>
+         <button onclick="document.querySelector('input#inumero').value +=9"  >9</button>
+         <button onclick="document.querySelector('input#inumero').value +=0"  id="num_zero">0</button>
         </div>
         <div id="func" class="numeros">
-            <div id="soma" onclick="somar()">+</div> 
-            <div>-</div> 
-            <div>/</div> 
-            <div>*</div>
+            <button  class="algoritmo" onclick="somar()" value="+"  >+</button>
+            <button class="algoritmo"  onclick="subtrair()" value="-" >-</button>
+            <button  class="algoritmo" onclick="dividir()" value="/" >/</button>
+            <button  class="algoritmo" onclick="multiplicar()" value="*" >*</button>
+            <button  class="algoritmo" onclick="clear()">B</button>
+
         </div>
         <button onclick="calculo()" >Calcular</button>
     </main>
