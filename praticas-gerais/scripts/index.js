@@ -63,7 +63,5 @@ function calculo(){
         res.value = total
         res.focus()
         return res.value
-
-
     }
 }
