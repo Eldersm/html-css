@@ -29,7 +29,9 @@ main {
     justify-content: center;
     align-items: center;  
     flex-direction: column;
-    height: 450px;
+    height: 400px;
+    width: 500px;
+    background-color: white;
 }
 div#func{
     display: flex;
